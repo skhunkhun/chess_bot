@@ -1,14 +1,14 @@
 Sunveer Khunkhun
 March 5 2023
 
-<!-- HOW TO RUN CODE -->
+# HOW TO RUN CODE
 
     -To run the code type in the command line 'python3 main.py' and everything should run at once.
     - You will get a prompt to choose the number of players ('1' for the AI or '2' for 2 human players).
     - If '1' is selected, then there will be a prompt to choose which colour ('W' for white or 'B' for black).
 
 
-<!-- EVALUATION FUNCTION -->
+# EVALUATION FUNCTION
 
     - The evaluation function gives each piece a score 'P': 1, 'N': 3, 'B': 3, 'R': 5, 'Q': 9 and evaluates the risk of taking each piece on any given board.
 
@@ -18,7 +18,7 @@ March 5 2023
 
     - If there is a checkmate on the board, the score is updated +1000, and the AI will prioritize the checkmate
 
-<!-- FUNCTIONS IMPLEMENTED -->
+# FUNCTIONS IMPLEMENTED
 
     In 'main.py', I have the initial board state, the main game while loop, a while loop to determine the number of player, and a while loop to determine which side the user wants.
 
